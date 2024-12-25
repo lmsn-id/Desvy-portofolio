@@ -1,0 +1,34 @@
+{
+  "name": "Portofolio Deployment",
+  "description": "Script for initializing and deploying a portfolio repository on GitHub",
+  "steps": [
+    {
+      "command": "echo \"# Portofolio\" >> README.md",
+      "description": "Create a README.md file with initial content."
+    },
+    {
+      "command": "git init",
+      "description": "Initialize a new Git repository."
+    },
+    {
+      "command": "git add README.md",
+      "description": "Add README.md to the staging area."
+    },
+    {
+      "command": "git commit -m \"first commit\"",
+      "description": "Commit the staged files with a message."
+    },
+    {
+      "command": "git branch -M main",
+      "description": "Rename the default branch to 'main'."
+    },
+    {
+      "command": "git remote add origin https://github.com/Desvy-lab/Portofolio.git",
+      "description": "Add the remote repository URL."
+    },
+    {
+      "command": "git push -u origin main",
+      "description": "Push the initial commit to the remote repository."
+    }
+  ]
+}
