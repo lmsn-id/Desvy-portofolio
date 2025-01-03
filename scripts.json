@@ -23,7 +23,7 @@
       "description": "Rename the default branch to 'main'."
     },
     {
-      "command": "git remote add origin https://github.com/Desvy-lab/Portofolio.git",
+      "command": "git remote add origin https://github.com/lmsn-id/Desvy-Portofolio.git",
       "description": "Add the remote repository URL."
     },
     {
